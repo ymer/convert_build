@@ -14,7 +14,7 @@ http://qbrc.swmed.edu/zhanxw/software/liftOver/b132_SNPChrPosOnRef_37_1.bcp.gz
 
 usage: liftover.py [-h] [--posonref POSONREF] [--data DATA] [--out OUT]
 
-optional arguments:
+arguments:
   -h, --help           show this help message and exit
   --posonref POSONREF  NCBI SNPChrPosOnRef file
   --data DATA          plink files (filestub)
