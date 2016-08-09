@@ -1,0 +1,20 @@
+A tool to convert association studies in binary format to another build.
+
+
+Requirements:
+
+Python pandas and plink.
+
+NCBI PosOnRef file. Contains the position of all snps.
+Build 38:
+ftp://ftp.ncbi.nih.gov/snp/organisms/human_9606/database/organism_data/b147_SNPChrPosOnRef_107.bcp.gz
+Build 37:
+http://qbrc.swmed.edu/zhanxw/software/liftOver/b132_SNPChrPosOnRef_37_1.bcp.gz
+
+usage: liftover.py [-h] [--posonref POSONREF] [--data DATA] [--out OUT]
+
+optional arguments:
+  -h, --help           show this help message and exit
+  --posonref POSONREF  NCBI SNPChrPosOnRef file
+  --data DATA          plink files (filestub)
+  --out OUT            output filenames (filestub)
