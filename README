@@ -11,6 +11,7 @@ ftp://ftp.ncbi.nih.gov/snp/organisms/human_9606/database/organism_data/b147_SNPC
 Build 37:
 http://qbrc.swmed.edu/zhanxw/software/liftOver/b132_SNPChrPosOnRef_37_1.bcp.gz
 
+
 usage: liftover.py [-h] [--posonref POSONREF] [--data DATA] [--out OUT]
 
 optional arguments:
